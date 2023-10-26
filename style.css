@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 72px;
+}
+
+.section-1 {
+    background-color: #1F2937;
+    height: 350px;
+}
+
+.section-2 {
+    background-color: white;
+    height: 350px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    height: 350px;
+}
+
+.section-4 {
+    background-color: white;
+    height: 350px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 72px;
+}
