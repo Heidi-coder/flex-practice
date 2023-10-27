@@ -6,30 +6,162 @@ body {
 
 .header {
     background-color: #1F2937;
-    height: 72px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 150px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .section-1 {
     background-color: #1F2937;
-    height: 350px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 150px;
+    gap: 10px;
+    flex: 1;
+}
+
+.sign-up {
+    text-wrap: wrap;
+}
+
+.sign-up h2 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.sign-up p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 12px;
+    border-radius: 7px;
+}
+
+.section-1 img {
+    width: 400px;
+    flex-shrink: 0;
 }
 
 .section-2 {
     background-color: white;
-    height: 350px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    flex: 1;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 50px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:#1F2937;
+}
+
+.helping {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+.forest {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.young {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.computers {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 10px;
 }
 
 .section-3 {
     background-color: #E5E7EB;
-    height: 350px;
+    min-height: 350px;
+    flex: 1;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.attribution {
+    color:#1F2937;
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
 }
 
 .section-4 {
     background-color: white;
-    height: 350px;
+    min-height: 350px;
+    flex: 1;
 }
 
 .footer {
     background-color: #1F2937;
     height: 72px;
 }
+
