@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .header {
@@ -58,7 +59,7 @@ body {
 .sign-up button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 8px 12px;
+    padding: 8px 20px;
     border-radius: 7px;
     border: 0px;
 }
@@ -162,6 +163,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 17px;
 }
 
 .blue {
@@ -179,13 +181,18 @@ body {
     color: #F9FAF8;
 }
 
+.text-heading {
+    font-size: 25px;
+}
+
 .blue button {
     background-color: #3882F6;
     color:#F9FAF8;
     border-style: solid;
     border-color: #F9FAF8;
     border-radius: 5px;
-    padding: 8px 12px;
+    padding: 8px 20px;
+    font-size: 17px;
 }
 
 .footer {
